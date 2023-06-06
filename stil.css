@@ -2,3 +2,11 @@ body
 {
     margin:0;
 }
+.contain
+{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-rows: 85% auto;
+    grid-template-areas: "top top top top top top top top top top top top" "left mid mid mid mid mid mid mid mid mid mid right" "bot bot bot bot bot bot bot bot bot bot bot bot" ;
+}
